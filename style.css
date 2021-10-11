@@ -1,0 +1,87 @@
+body, html{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-self: center;
+}
+
+main {
+    width: 600px;
+    background-color: white;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+
+}
+
+header{
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+}
+
+header > div > img{
+    width: 90px
+}
+
+.titulo {
+    font-family:cursive;
+}
+
+section{
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    
+}
+
+.ParrafoIzquierdo{ 
+    width: 50%;
+    height: 60%;
+}
+
+.ParrafoIzquierdo > p{ 
+    font-family: cursive;
+    font-size: 1.3rem;
+}
+
+.FormularioDerecho{
+    width: 35%;
+    height: 30%;
+    flex-direction: column;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+ input {
+    font-size: 1rem;
+    margin: 5px;
+    padding: 5px;
+    border: 0;
+    border-bottom: 1px solid gray;
+}
+
+footer{
+    height: 100px;
+    text-align: center;
+}
+
+footer > div > button{
+    font-family: cursive;
+    background-color: gray;
+    border: none;
+    color: black;
+    padding: 10px 25px;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 15px;
+    margin: 2px 4px;
+    cursor: pointer;
+}
+
+
